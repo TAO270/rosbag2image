@@ -19,5 +19,5 @@ If ROS (indigo) is being used, it is recommended to manually install cv_bridge a
     make 
     source devel/setup.bash
     roslaunch rosbag2image test.launch
-Note that the node should run with three parameters: save path, topic name and isColor (true or false).<br>
+##### Note that the node should run with three parameters: save path, topic name and isColor (true or false).<br>
 `rosbag play your own ros bag`
