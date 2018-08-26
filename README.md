@@ -1,5 +1,5 @@
 # rosbag2image
-This ros package subscribes to image topics of ros and save them as images (format PNG) and converts imu data into .csv file, which results in the same data format as the [EuRoC MAV dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets).<br>
+This ros package subscribes to image topics of ros and save them as images (format PNG), and converts imu data into .csv file, which results in the same data format as the [EuRoC MAV dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets).<br>
 ## Dependency
 * OpenCV (VERSION > 3.0)<br>
 
