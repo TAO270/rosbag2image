@@ -1,7 +1,7 @@
 # rosbag2image
 This ros package subscribes to image topics of ros and save them as images (format PNG) and converts imu data into .csv file, which results in the same data format as the [EuRoC MAV dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets).<br>
 ## Dependency
-* OpenCV (VERSION > 3.0)
+* OpenCV (VERSION > 3.0)<br>
 If ROS (indigo) is being used, it is recommended to manually install cv_bridge above oepncv3.0. [URL](https://github.com/ros-perception/vision_opencv)<br>
 
         git clone https://github.com/ros-perception/vision_opencv.git
