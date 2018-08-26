@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="rosbag2image" type="imWriteLeft" name="imWriteLeft" args="/home/mark/your_path/ /boteye/left/image_color_raw true" output ="screen"/>    
+
+    <node pkg="rosbag2image" type="imWriteRight" name="imWriteRight" args="/home/mark/your_path/ /boteye/right/image_color_raw true"/>    
+
+    <node pkg="rosbag2image" type="imu2csv" name="imu2csv" args="/home/mark/your_path/ /boteye/imu/data_raw"/>    
+    
+</launch>
