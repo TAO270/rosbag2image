@@ -8,6 +8,7 @@ If ROS (indigo) is being used, it is recommended to manually install cv_bridge a
         git clone https://github.com/ros-perception/vision_opencv.git
         cd vision_opencv & cd cv_bridge
         mkdir build & cd build
+        cmake ..
         make 
         sudo make install
 ## Compile
