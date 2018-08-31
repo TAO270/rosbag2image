@@ -4,7 +4,7 @@ This ros package subscribes to image topics of ros and save them as images (form
 * OpenCV (VERSION > 3.0)<br>
 * Cmake (VERSION > 2.8)<br>
 
-If ROS (indigo) is being used, it is recommended to manually install cv_bridge above oepncv3.0. [URL](https://github.com/ros-perception/vision_opencv)<br>
+If ROS (indigo) is being used, it is recommended to manually install cv_bridge above OpenCV 3.0. [URL](https://github.com/ros-perception/vision_opencv)<br>
 
         git clone https://github.com/ros-perception/vision_opencv.git
         cd vision_opencv & cd cv_bridge
